@@ -1,4 +1,4 @@
-# OCTOPI
+# OCTOPI 🐙
 2 Factor Authenticator app.
 
 ### Design
