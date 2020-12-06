@@ -11,8 +11,8 @@
 		F57BE8DF257D51B000F9A1E2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */; };
 		F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */; };
 		F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */; };
-		F57BE8E3257D51B000F9A1E2 /* octopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */; };
-		F57BE8E4257D51B000F9A1E2 /* octopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */; };
+		F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */; };
+		F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */; };
 		F57BE8E5257D51B000F9A1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */; };
 		F57BE8E6257D51B000F9A1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */; };
 		F57BE8E7257D51B000F9A1E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */; };
@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		F57BE8B6257D51AE00F9A1E2 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = octopiApp.swift; sourceTree = "<group>"; };
+		F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctopiApp.swift; sourceTree = "<group>"; };
 		F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		F57BE8B4257D51AE00F9A1E2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */,
+				F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */,
 				F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */,
 				F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */,
 				F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */,
@@ -318,7 +318,7 @@
 			files = (
 				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F57BE8E7257D51B000F9A1E2 /* Persistence.swift in Sources */,
-				F57BE8E3257D51B000F9A1E2 /* octopiApp.swift in Sources */,
+				F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
 				F57BE8E5257D51B000F9A1E2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,7 +329,7 @@
 			files = (
 				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F57BE8E8257D51B000F9A1E2 /* Persistence.swift in Sources */,
-				F57BE8E4257D51B000F9A1E2 /* octopiApp.swift in Sources */,
+				F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
 				F57BE8E6257D51B000F9A1E2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
