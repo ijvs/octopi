@@ -1,2 +1,2 @@
 # octopi
-2 Factor Authenticator.
+2 Factor Authenticator app.
