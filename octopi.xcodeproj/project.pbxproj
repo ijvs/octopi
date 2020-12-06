@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57BE8D4257D51B000F9A1E2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8D3257D51B000F9A1E2 /* Tests_iOS.swift */; };
+		F57BE8DF257D51B000F9A1E2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */; };
+		F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */; };
+		F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */; };
+		F57BE8E3257D51B000F9A1E2 /* octopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */; };
+		F57BE8E4257D51B000F9A1E2 /* octopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */; };
+		F57BE8E5257D51B000F9A1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */; };
+		F57BE8E6257D51B000F9A1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */; };
+		F57BE8E7257D51B000F9A1E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */; };
+		F57BE8E8257D51B000F9A1E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */; };
+		F57BE8E9257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
+		F57BE8EA257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F57BE8D0257D51B000F9A1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57BE8B0257D51AD00F9A1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57BE8BE257D51B000F9A1E2;
+			remoteInfo = "octopi (iOS)";
+		};
+		F57BE8DB257D51B000F9A1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57BE8B0257D51AD00F9A1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57BE8C6257D51B000F9A1E2;
+			remoteInfo = "octopi (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F57BE8B6257D51AE00F9A1E2 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = octopiApp.swift; sourceTree = "<group>"; };
+		F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57BE8BF257D51B000F9A1E2 /* octopi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octopi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57BE8C2257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57BE8C7257D51B000F9A1E2 /* octopi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octopi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57BE8C9257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57BE8CA257D51B000F9A1E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F57BE8CF257D51B000F9A1E2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57BE8D3257D51B000F9A1E2 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F57BE8D5257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57BE8DA257D51B000F9A1E2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F57BE8E0257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57BE8BC257D51B000F9A1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8C4257D51B000F9A1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8CC257D51B000F9A1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8D7257D51B000F9A1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F57BE8AF257D51AD00F9A1E2 = {
+			isa = PBXGroup;
+			children = (
+				F57BE8B4257D51AE00F9A1E2 /* Shared */,
+				F57BE8C1257D51B000F9A1E2 /* iOS */,
+				F57BE8C8257D51B000F9A1E2 /* macOS */,
+				F57BE8D2257D51B000F9A1E2 /* Tests iOS */,
+				F57BE8DD257D51B000F9A1E2 /* Tests macOS */,
+				F57BE8C0257D51B000F9A1E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F57BE8B4257D51AE00F9A1E2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE8B7257D51AE00F9A1E2 /* octopiApp.swift */,
+				F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */,
+				F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */,
+				F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */,
+				F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F57BE8C0257D51B000F9A1E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE8BF257D51B000F9A1E2 /* octopi.app */,
+				F57BE8C7257D51B000F9A1E2 /* octopi.app */,
+				F57BE8CF257D51B000F9A1E2 /* Tests iOS.xctest */,
+				F57BE8DA257D51B000F9A1E2 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57BE8C1257D51B000F9A1E2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE8C2257D51B000F9A1E2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F57BE8C8257D51B000F9A1E2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE8C9257D51B000F9A1E2 /* Info.plist */,
+				F57BE8CA257D51B000F9A1E2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F57BE8D2257D51B000F9A1E2 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE8D3257D51B000F9A1E2 /* Tests_iOS.swift */,
+				F57BE8D5257D51B000F9A1E2 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F57BE8DD257D51B000F9A1E2 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */,
+				F57BE8E0257D51B000F9A1E2 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57BE8BE257D51B000F9A1E2 /* octopi (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57BE8ED257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "octopi (iOS)" */;
+			buildPhases = (
+				F57BE8BB257D51B000F9A1E2 /* Sources */,
+				F57BE8BC257D51B000F9A1E2 /* Frameworks */,
+				F57BE8BD257D51B000F9A1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "octopi (iOS)";
+			productName = "octopi (iOS)";
+			productReference = F57BE8BF257D51B000F9A1E2 /* octopi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F57BE8C6257D51B000F9A1E2 /* octopi (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57BE8F0257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "octopi (macOS)" */;
+			buildPhases = (
+				F57BE8C3257D51B000F9A1E2 /* Sources */,
+				F57BE8C4257D51B000F9A1E2 /* Frameworks */,
+				F57BE8C5257D51B000F9A1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "octopi (macOS)";
+			productName = "octopi (macOS)";
+			productReference = F57BE8C7257D51B000F9A1E2 /* octopi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F57BE8CE257D51B000F9A1E2 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57BE8F3257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F57BE8CB257D51B000F9A1E2 /* Sources */,
+				F57BE8CC257D51B000F9A1E2 /* Frameworks */,
+				F57BE8CD257D51B000F9A1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57BE8D1257D51B000F9A1E2 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F57BE8CF257D51B000F9A1E2 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F57BE8D9257D51B000F9A1E2 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57BE8F6257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F57BE8D6257D51B000F9A1E2 /* Sources */,
+				F57BE8D7257D51B000F9A1E2 /* Frameworks */,
+				F57BE8D8257D51B000F9A1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57BE8DC257D51B000F9A1E2 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F57BE8DA257D51B000F9A1E2 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57BE8B0257D51AD00F9A1E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F57BE8BE257D51B000F9A1E2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F57BE8C6257D51B000F9A1E2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F57BE8CE257D51B000F9A1E2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F57BE8BE257D51B000F9A1E2;
+					};
+					F57BE8D9257D51B000F9A1E2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F57BE8C6257D51B000F9A1E2;
+					};
+				};
+			};
+			buildConfigurationList = F57BE8B3257D51AD00F9A1E2 /* Build configuration list for PBXProject "octopi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F57BE8AF257D51AD00F9A1E2;
+			productRefGroup = F57BE8C0257D51B000F9A1E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57BE8BE257D51B000F9A1E2 /* octopi (iOS) */,
+				F57BE8C6257D51B000F9A1E2 /* octopi (macOS) */,
+				F57BE8CE257D51B000F9A1E2 /* Tests iOS */,
+				F57BE8D9257D51B000F9A1E2 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57BE8BD257D51B000F9A1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57BE8E9257D51B000F9A1E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8C5257D51B000F9A1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57BE8EA257D51B000F9A1E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8CD257D51B000F9A1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8D8257D51B000F9A1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57BE8BB257D51B000F9A1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
+				F57BE8E7257D51B000F9A1E2 /* Persistence.swift in Sources */,
+				F57BE8E3257D51B000F9A1E2 /* octopiApp.swift in Sources */,
+				F57BE8E5257D51B000F9A1E2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8C3257D51B000F9A1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
+				F57BE8E8257D51B000F9A1E2 /* Persistence.swift in Sources */,
+				F57BE8E4257D51B000F9A1E2 /* octopiApp.swift in Sources */,
+				F57BE8E6257D51B000F9A1E2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8CB257D51B000F9A1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57BE8D4257D51B000F9A1E2 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57BE8D6257D51B000F9A1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57BE8DF257D51B000F9A1E2 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F57BE8D1257D51B000F9A1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57BE8BE257D51B000F9A1E2 /* octopi (iOS) */;
+			targetProxy = F57BE8D0257D51B000F9A1E2 /* PBXContainerItemProxy */;
+		};
+		F57BE8DC257D51B000F9A1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57BE8C6257D51B000F9A1E2 /* octopi (macOS) */;
+			targetProxy = F57BE8DB257D51B000F9A1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F57BE8EB257D51B000F9A1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F57BE8EC257D51B000F9A1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F57BE8EE257D51B000F9A1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = space.siker.octopi;
+				PRODUCT_NAME = octopi;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F57BE8EF257D51B000F9A1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = space.siker.octopi;
+				PRODUCT_NAME = octopi;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57BE8F1257D51B000F9A1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.siker.octopi;
+				PRODUCT_NAME = octopi;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F57BE8F2257D51B000F9A1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.siker.octopi;
+				PRODUCT_NAME = octopi;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F57BE8F4257D51B000F9A1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "space.siker.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "octopi (iOS)";
+			};
+			name = Debug;
+		};
+		F57BE8F5257D51B000F9A1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "space.siker.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "octopi (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57BE8F7257D51B000F9A1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "space.siker.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "octopi (macOS)";
+			};
+			name = Debug;
+		};
+		F57BE8F8257D51B000F9A1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3VV4SD4LV;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "space.siker.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "octopi (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57BE8B3257D51AD00F9A1E2 /* Build configuration list for PBXProject "octopi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57BE8EB257D51B000F9A1E2 /* Debug */,
+				F57BE8EC257D51B000F9A1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57BE8ED257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "octopi (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57BE8EE257D51B000F9A1E2 /* Debug */,
+				F57BE8EF257D51B000F9A1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57BE8F0257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "octopi (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57BE8F1257D51B000F9A1E2 /* Debug */,
+				F57BE8F2257D51B000F9A1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57BE8F3257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57BE8F4257D51B000F9A1E2 /* Debug */,
+				F57BE8F5257D51B000F9A1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57BE8F6257D51B000F9A1E2 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57BE8F7257D51B000F9A1E2 /* Debug */,
+				F57BE8F8257D51B000F9A1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F57BE8B6257D51AE00F9A1E2 /* Shared.xcdatamodel */,
+			);
+			currentVersion = F57BE8B6257D51AE00F9A1E2 /* Shared.xcdatamodel */;
+			path = octopi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F57BE8B0257D51AD00F9A1E2 /* Project object */;
+}
