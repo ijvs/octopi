@@ -13,12 +13,10 @@
 		F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */; };
 		F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */; };
 		F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */; };
-		F57BE8E5257D51B000F9A1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */; };
-		F57BE8E6257D51B000F9A1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */; };
-		F57BE8E7257D51B000F9A1E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */; };
-		F57BE8E8257D51B000F9A1E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */; };
 		F57BE8E9257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
 		F57BE8EA257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
+		F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
+		F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +39,6 @@
 /* Begin PBXFileReference section */
 		F57BE8B6257D51AE00F9A1E2 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctopiApp.swift; sourceTree = "<group>"; };
-		F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57BE8BF257D51B000F9A1E2 /* octopi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octopi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57BE8C2257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +51,7 @@
 		F57BE8DA257D51B000F9A1E2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F57BE8E0257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B412D7257DA4D6004E17CD /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */,
-				F57BE8B8257D51AE00F9A1E2 /* ContentView.swift */,
-				F57BE8B9257D51AE00F9A1E2 /* Persistence.swift */,
+				F5B412D7257DA4D6004E17CD /* AccountListView.swift */,
 				F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */,
 				F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */,
 			);
@@ -316,10 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
-				F57BE8E7257D51B000F9A1E2 /* Persistence.swift in Sources */,
 				F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
-				F57BE8E5257D51B000F9A1E2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
-				F57BE8E8257D51B000F9A1E2 /* Persistence.swift in Sources */,
 				F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
-				F57BE8E6257D51B000F9A1E2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
