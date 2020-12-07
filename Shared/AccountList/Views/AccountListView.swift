@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AccountListView: View {
     var body: some View {
-        Text("Hello, World!")
+        AccountHeaderView(model: HeaderOTPViewModel(account: Account(digits: 6,
+                                                                     issuer: "issuer",
+                                                                     label: "Label",
+                                                                     period: 30,
+                                                                     algorithm: .sha1)))
     }
 }
 

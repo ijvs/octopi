@@ -15,6 +15,10 @@
 		F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */; };
 		F57BE8E9257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
 		F57BE8EA257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
+		F596CBD3257E860700A068A5 /* Notifications+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596CBD2257E860700A068A5 /* Notifications+Name.swift */; };
+		F596CBD4257E860700A068A5 /* Notifications+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596CBD2257E860700A068A5 /* Notifications+Name.swift */; };
+		F596CBDA257E89CF00A068A5 /* AccountHeaderEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596CBD9257E89CF00A068A5 /* AccountHeaderEmptyView.swift */; };
+		F596CBDB257E89CF00A068A5 /* AccountHeaderEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596CBD9257E89CF00A068A5 /* AccountHeaderEmptyView.swift */; };
 		F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
 		F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
 		F5B412F1257DA72B004E17CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412F0257DA72B004E17CD /* Theme.swift */; };
@@ -32,6 +36,12 @@
 		F5B41338257DAB3A004E17CD /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41336257DAB3A004E17CD /* CardModifier.swift */; };
 		F5B4133F257DAF2F004E17CD /* IconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4133E257DAF2F004E17CD /* IconService.swift */; };
 		F5B41340257DAF2F004E17CD /* IconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4133E257DAF2F004E17CD /* IconService.swift */; };
+		F5B41355257DB1FC004E17CD /* AccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41354257DB1FC004E17CD /* AccountHeaderView.swift */; };
+		F5B41356257DB1FC004E17CD /* AccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41354257DB1FC004E17CD /* AccountHeaderView.swift */; };
+		F5B4135C257DB38C004E17CD /* CircleCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4135B257DB38C004E17CD /* CircleCounterView.swift */; };
+		F5B4135D257DB38C004E17CD /* CircleCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4135B257DB38C004E17CD /* CircleCounterView.swift */; };
+		F5B41363257DBE1C004E17CD /* OTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41362257DBE1C004E17CD /* OTPService.swift */; };
+		F5B41364257DBE1C004E17CD /* OTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41362257DBE1C004E17CD /* OTPService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +76,8 @@
 		F57BE8DA257D51B000F9A1E2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F57BE8E0257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F596CBD2257E860700A068A5 /* Notifications+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications+Name.swift"; sourceTree = "<group>"; };
+		F596CBD9257E89CF00A068A5 /* AccountHeaderEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderEmptyView.swift; sourceTree = "<group>"; };
 		F5B412D7257DA4D6004E17CD /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 		F5B412F0257DA72B004E17CD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F5B41300257DA91A004E17CD /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
@@ -73,6 +85,9 @@
 		F5B4132E257DAA96004E17CD /* AccountCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardView.swift; sourceTree = "<group>"; };
 		F5B41336257DAB3A004E17CD /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
 		F5B4133E257DAF2F004E17CD /* IconService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconService.swift; sourceTree = "<group>"; };
+		F5B41354257DB1FC004E17CD /* AccountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderView.swift; sourceTree = "<group>"; };
+		F5B4135B257DB38C004E17CD /* CircleCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCounterView.swift; sourceTree = "<group>"; };
+		F5B41362257DBE1C004E17CD /* OTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +210,9 @@
 			children = (
 				F5B412D7257DA4D6004E17CD /* AccountListView.swift */,
 				F5B4132E257DAA96004E17CD /* AccountCardView.swift */,
+				F5B41354257DB1FC004E17CD /* AccountHeaderView.swift */,
+				F596CBD9257E89CF00A068A5 /* AccountHeaderEmptyView.swift */,
+				F5B4135B257DB38C004E17CD /* CircleCounterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +222,7 @@
 			children = (
 				F5B41335257DAB23004E17CD /* UI */,
 				F5B412F0257DA72B004E17CD /* Theme.swift */,
+				F596CBD2257E860700A068A5 /* Notifications+Name.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -229,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				F5B4133E257DAF2F004E17CD /* IconService.swift */,
+				F5B41362257DBE1C004E17CD /* OTPService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -403,12 +423,17 @@
 				F5B41301257DA91A004E17CD /* Account.swift in Sources */,
 				F5B4133F257DAF2F004E17CD /* IconService.swift in Sources */,
 				F5B41308257DA968004E17CD /* Algorithm.swift in Sources */,
+				F5B41363257DBE1C004E17CD /* OTPService.swift in Sources */,
+				F5B4135C257DB38C004E17CD /* CircleCounterView.swift in Sources */,
+				F5B41355257DB1FC004E17CD /* AccountHeaderView.swift in Sources */,
 				F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F5B412F1257DA72B004E17CD /* Theme.swift in Sources */,
 				F5B4132F257DAA96004E17CD /* AccountCardView.swift in Sources */,
 				F5B41337257DAB3A004E17CD /* CardModifier.swift in Sources */,
 				F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
+				F596CBD3257E860700A068A5 /* Notifications+Name.swift in Sources */,
+				F596CBDA257E89CF00A068A5 /* AccountHeaderEmptyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +444,17 @@
 				F5B41302257DA91A004E17CD /* Account.swift in Sources */,
 				F5B41340257DAF2F004E17CD /* IconService.swift in Sources */,
 				F5B41309257DA968004E17CD /* Algorithm.swift in Sources */,
+				F5B41364257DBE1C004E17CD /* OTPService.swift in Sources */,
+				F5B4135D257DB38C004E17CD /* CircleCounterView.swift in Sources */,
+				F5B41356257DB1FC004E17CD /* AccountHeaderView.swift in Sources */,
 				F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F5B412F2257DA72B004E17CD /* Theme.swift in Sources */,
 				F5B41330257DAA96004E17CD /* AccountCardView.swift in Sources */,
 				F5B41338257DAB3A004E17CD /* CardModifier.swift in Sources */,
 				F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
+				F596CBD4257E860700A068A5 /* Notifications+Name.swift in Sources */,
+				F596CBDB257E89CF00A068A5 /* AccountHeaderEmptyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
