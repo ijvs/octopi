@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,9 @@
 		F5B41302257DA91A004E17CD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41300257DA91A004E17CD /* Account.swift */; };
 		F5B41308257DA968004E17CD /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41307257DA968004E17CD /* Algorithm.swift */; };
 		F5B41309257DA968004E17CD /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41307257DA968004E17CD /* Algorithm.swift */; };
+		F5B41310257DA9CE004E17CD /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = F5B4130F257DA9CE004E17CD /* CodeScanner */; };
+		F5B41317257DA9E0004E17CD /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = F5B41316257DA9E0004E17CD /* SwiftKeychainWrapper */; };
+		F5B4131E257DA9FF004E17CD /* SwiftOTP in Frameworks */ = {isa = PBXBuildFile; productRef = F5B4131D257DA9FF004E17CD /* SwiftOTP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B41317257DA9E0004E17CD /* SwiftKeychainWrapper in Frameworks */,
+				F5B4131E257DA9FF004E17CD /* SwiftOTP in Frameworks */,
+				F5B41310257DA9CE004E17CD /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +221,11 @@
 			dependencies = (
 			);
 			name = "octopi (iOS)";
+			packageProductDependencies = (
+				F5B4130F257DA9CE004E17CD /* CodeScanner */,
+				F5B41316257DA9E0004E17CD /* SwiftKeychainWrapper */,
+				F5B4131D257DA9FF004E17CD /* SwiftOTP */,
+			);
 			productName = "octopi (iOS)";
 			productReference = F57BE8BF257D51B000F9A1E2 /* octopi.app */;
 			productType = "com.apple.product-type.application";
@@ -306,6 +317,11 @@
 				Base,
 			);
 			mainGroup = F57BE8AF257D51AD00F9A1E2;
+			packageReferences = (
+				F5B4130E257DA9CE004E17CD /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				F5B41315257DA9E0004E17CD /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				F5B4131C257DA9FF004E17CD /* XCRemoteSwiftPackageReference "SwiftOTP" */,
+			);
 			productRefGroup = F57BE8C0257D51B000F9A1E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -752,6 +768,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5B4130E257DA9CE004E17CD /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+		F5B41315257DA9E0004E17CD /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		F5B4131C257DA9FF004E17CD /* XCRemoteSwiftPackageReference "SwiftOTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lachlanbell/SwiftOTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5B4130F257DA9CE004E17CD /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B4130E257DA9CE004E17CD /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		F5B41316257DA9E0004E17CD /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B41315257DA9E0004E17CD /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		F5B4131D257DA9FF004E17CD /* SwiftOTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B4131C257DA9FF004E17CD /* XCRemoteSwiftPackageReference "SwiftOTP" */;
+			productName = SwiftOTP;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */ = {
