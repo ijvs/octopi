@@ -20,5 +20,13 @@ struct Theme {
         static let ternaryLabel: Color = Color("TernaryLabel")
         static let buttonLabel: Color = Color("ButtonLabel")
         static let tint: Color = Color("Tint")
+        
+        static let shadow: Color = Color.black.opacity(0.05)
+    }
+    
+    struct Layout {
+        static let cornerRadius: CGFloat = 8
+        static let shadowRadius: CGFloat = 8
+        static let shadowOffset: CGPoint = CGPoint(x: 0, y: 4)
     }
 }

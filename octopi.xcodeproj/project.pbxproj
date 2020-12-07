@@ -26,6 +26,12 @@
 		F5B41310257DA9CE004E17CD /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = F5B4130F257DA9CE004E17CD /* CodeScanner */; };
 		F5B41317257DA9E0004E17CD /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = F5B41316257DA9E0004E17CD /* SwiftKeychainWrapper */; };
 		F5B4131E257DA9FF004E17CD /* SwiftOTP in Frameworks */ = {isa = PBXBuildFile; productRef = F5B4131D257DA9FF004E17CD /* SwiftOTP */; };
+		F5B4132F257DAA96004E17CD /* AccountCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4132E257DAA96004E17CD /* AccountCardView.swift */; };
+		F5B41330257DAA96004E17CD /* AccountCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4132E257DAA96004E17CD /* AccountCardView.swift */; };
+		F5B41337257DAB3A004E17CD /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41336257DAB3A004E17CD /* CardModifier.swift */; };
+		F5B41338257DAB3A004E17CD /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41336257DAB3A004E17CD /* CardModifier.swift */; };
+		F5B4133F257DAF2F004E17CD /* IconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4133E257DAF2F004E17CD /* IconService.swift */; };
+		F5B41340257DAF2F004E17CD /* IconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4133E257DAF2F004E17CD /* IconService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,9 @@
 		F5B412F0257DA72B004E17CD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F5B41300257DA91A004E17CD /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		F5B41307257DA968004E17CD /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		F5B4132E257DAA96004E17CD /* AccountCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardView.swift; sourceTree = "<group>"; };
+		F5B41336257DAB3A004E17CD /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		F5B4133E257DAF2F004E17CD /* IconService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,7 @@
 				F5B412FB257DA8C5004E17CD /* Models */,
 				F5B412E2257DA4FE004E17CD /* AccountList */,
 				F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */,
+				F5B4133D257DAEFC004E17CD /* Services */,
 				F5B412EF257DA708004E17CD /* Utils */,
 				F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */,
 			);
@@ -184,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				F5B412D7257DA4D6004E17CD /* AccountListView.swift */,
+				F5B4132E257DAA96004E17CD /* AccountCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +202,7 @@
 		F5B412EF257DA708004E17CD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F5B41335257DAB23004E17CD /* UI */,
 				F5B412F0257DA72B004E17CD /* Theme.swift */,
 			);
 			path = Utils;
@@ -203,6 +215,22 @@
 				F5B41307257DA968004E17CD /* Algorithm.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F5B41335257DAB23004E17CD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F5B41336257DAB3A004E17CD /* CardModifier.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F5B4133D257DAEFC004E17CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5B4133E257DAF2F004E17CD /* IconService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,10 +401,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B41301257DA91A004E17CD /* Account.swift in Sources */,
+				F5B4133F257DAF2F004E17CD /* IconService.swift in Sources */,
 				F5B41308257DA968004E17CD /* Algorithm.swift in Sources */,
 				F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F5B412F1257DA72B004E17CD /* Theme.swift in Sources */,
+				F5B4132F257DAA96004E17CD /* AccountCardView.swift in Sources */,
+				F5B41337257DAB3A004E17CD /* CardModifier.swift in Sources */,
 				F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,10 +417,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B41302257DA91A004E17CD /* Account.swift in Sources */,
+				F5B41340257DAF2F004E17CD /* IconService.swift in Sources */,
 				F5B41309257DA968004E17CD /* Algorithm.swift in Sources */,
 				F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F5B412F2257DA72B004E17CD /* Theme.swift in Sources */,
+				F5B41330257DAA96004E17CD /* AccountCardView.swift in Sources */,
+				F5B41338257DAB3A004E17CD /* CardModifier.swift in Sources */,
 				F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
