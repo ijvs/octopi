@@ -17,6 +17,8 @@
 		F57BE8EA257D51B000F9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */; };
 		F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
 		F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
+		F5B412F1257DA72B004E17CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412F0257DA72B004E17CD /* Theme.swift */; };
+		F5B412F2257DA72B004E17CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412F0257DA72B004E17CD /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		F57BE8DE257D51B000F9A1E2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F57BE8E0257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B412D7257DA4D6004E17CD /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		F5B412F0257DA72B004E17CD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				F57BE8B7257D51AE00F9A1E2 /* OctopiApp.swift */,
 				F5B412D7257DA4D6004E17CD /* AccountListView.swift */,
+				F5B412EF257DA708004E17CD /* Utils */,
 				F57BE8BA257D51B000F9A1E2 /* Assets.xcassets */,
 				F57BE8B5257D51AE00F9A1E2 /* octopi.xcdatamodeld */,
 			);
@@ -153,6 +157,14 @@
 				F57BE8E0257D51B000F9A1E2 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F5B412EF257DA708004E17CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F5B412F0257DA72B004E17CD /* Theme.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +326,7 @@
 			files = (
 				F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
+				F5B412F1257DA72B004E17CD /* Theme.swift in Sources */,
 				F57BE8E3257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +337,7 @@
 			files = (
 				F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
+				F5B412F2257DA72B004E17CD /* Theme.swift in Sources */,
 				F57BE8E4257D51B000F9A1E2 /* OctopiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
