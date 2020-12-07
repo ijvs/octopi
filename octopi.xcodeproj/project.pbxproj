@@ -19,6 +19,10 @@
 		F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412D7257DA4D6004E17CD /* AccountListView.swift */; };
 		F5B412F1257DA72B004E17CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412F0257DA72B004E17CD /* Theme.swift */; };
 		F5B412F2257DA72B004E17CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B412F0257DA72B004E17CD /* Theme.swift */; };
+		F5B41301257DA91A004E17CD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41300257DA91A004E17CD /* Account.swift */; };
+		F5B41302257DA91A004E17CD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41300257DA91A004E17CD /* Account.swift */; };
+		F5B41308257DA968004E17CD /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41307257DA968004E17CD /* Algorithm.swift */; };
+		F5B41309257DA968004E17CD /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B41307257DA968004E17CD /* Algorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		F57BE8E0257D51B000F9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B412D7257DA4D6004E17CD /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 		F5B412F0257DA72B004E17CD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F5B41300257DA91A004E17CD /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		F5B41307257DA968004E17CD /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +193,8 @@
 		F5B412FB257DA8C5004E17CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F5B41300257DA91A004E17CD /* Account.swift */,
+				F5B41307257DA968004E17CD /* Algorithm.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B41301257DA91A004E17CD /* Account.swift in Sources */,
+				F5B41308257DA968004E17CD /* Algorithm.swift in Sources */,
 				F5B412D8257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E1257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F5B412F1257DA72B004E17CD /* Theme.swift in Sources */,
@@ -359,6 +369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B41302257DA91A004E17CD /* Account.swift in Sources */,
+				F5B41309257DA968004E17CD /* Algorithm.swift in Sources */,
 				F5B412D9257DA4D6004E17CD /* AccountListView.swift in Sources */,
 				F57BE8E2257D51B000F9A1E2 /* octopi.xcdatamodeld in Sources */,
 				F5B412F2257DA72B004E17CD /* Theme.swift in Sources */,
