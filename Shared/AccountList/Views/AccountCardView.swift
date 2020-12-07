@@ -68,6 +68,7 @@ struct AccountCardView: View {
                 }
             }
         }
+        .padding()
         .frame(minWidth: Layout.minWidth,
                minHeight: Layout.minHeight)
     }
@@ -78,6 +79,7 @@ struct AccountCardView: View {
         }, label: {
             Layout.deleteIcon
                 .resizable()
+                .accentColor(Theme.Colors.tint)
                 .frame(width: Layout.iconSide,
                        height: Layout.iconSide)
                 .padding()
@@ -91,7 +93,7 @@ struct AccountCardView: View {
         static let minHeight: CGFloat = 100
         static let padding: CGFloat = 15
 
-        static let iconSide: CGFloat = 30
+        static let iconSide: CGFloat = 20
         
         static let deleteIcon: Image = Image(systemName: "xmark.circle.fill")
     }
@@ -104,14 +106,14 @@ struct AccountCardView_Previews: PreviewProvider {
                                                           label: "Label",
                                                           period: 30,
                                                           algorithm: .sha1),
-                                         isEditing: false)
+                                         isEditing: true)
         return Group {
             AccountCardView(model: model,
                             deleteAction: { })
-                .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/150.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/))
+                .previewLayout(.fixed(width: 150.0, height: 120))
             AccountCardView(model: model,
                             deleteAction: { })
-                .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/150.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/))
+                .previewLayout(.fixed(width: 150.0, height: 120))
                 .preferredColorScheme(.dark)
         }
     }
